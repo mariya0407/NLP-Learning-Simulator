@@ -29,26 +29,29 @@ Follow these steps to run the simulator locally on your machine.
 ```
 git clone [https://github.com/mariya0407/NLP-Learning-Simulator.git](https://github.com/mariya0407/NLP-Learning-Simulator.git)
 cd NLP-Learning-Simulator
+```
 
 2. Create and activate a virtual environment
 
 Mac/Linux:
-
+```
 python -m venv venv
 source venv/bin/activate
-
+```
 Windows:
-
+```
 python -m venv venv
 venv\Scripts\activate
-
+```
 
 3. Install the required dependencies
+```
 pip install -r requirements.txt
-
+```
 (Note: The application is designed to automatically download the necessary NLTK (punkt) and spaCy (en_core_web_sm) language models on its first run.)
 
 4. Run the application
-
+```
 streamlit run app.py
+```
 The app will automatically open in your default web browser at http://localhost:8501.

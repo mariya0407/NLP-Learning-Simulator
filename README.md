@@ -55,3 +55,9 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 The app will automatically open in your default web browser at http://localhost:8501.
+
+
+
+```
+Link to Gemini chat: https://gemini.google.com/app/0c1bcc5027a752cf
+```
